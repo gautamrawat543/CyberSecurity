@@ -1,27 +1,44 @@
-# 🛡️ CyberSecurity
+# 🛡️ CyberSecurity Toolkit
 
-**CyberSecurity** is a collection of Bash scripts and resources focused on automating and simplifying key tasks related to system and network security, threat detection, and hardening.
+**CyberSecurity** is a curated collection of bash scripts, tools, and automation designed to assist with system hardening, password cracking, DevSecOps integration, and real-world security tasks.
 
----
-
-## ⚙️ Tools & Utilities
-
-This repository provides automated tools and scripts for DevSecOps, CI/CD pipelines, security hardening, and other cybersecurity use cases.
-
-### 🗂️ Contents
-- **BashScripts/** — A collection of bash automation scripts for security:
-  - Hardening system configurations
-  - Automating vulnerability scans & patching
-  - Gathering logs and system info for audit
-- **vesitTest.txt** — A test or demo file (please update description)
-- More scripts or modules can be added under categorize folders
+This project includes **automated utilities**, **penetration testing scripts**, and **proof of contributions** to the cybersecurity community.
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Key Features
 
-### 💾 Clone the repo
+- 🔐 **System Hardening Scripts**: Automate security configurations like firewalls, SSH rules, and service audits.
+- 💣 **Password Cracking Utility**: Use brute-force or dictionary-based methods to test password strength.
+- 📊 **Logging & Monitoring**: Scripts to audit logs, track failed logins, and collect system metadata.
+- ⚙️ **CI/CD Security**: Scripts that can be integrated into DevSecOps pipelines.
+- 📁 **Modular Design**: Easy-to-use scripts categorized for quick access.
 
+---
+
+## 📂 Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| `BashScripts/` | All core bash scripts for various cybersecurity tasks |
+| `Achievements/` | Proof of cybersecurity contribution (with certificates/images) |
+| `vesitTest.txt` | Test/demo text file (usage TBD) |
+
+---
+
+## 🔓 Password Cracking Script
+
+Inside `BashScripts/`, you'll find a **password cracking script** designed for educational and testing purposes:
+
+### 🔍 Example Features:
+- Dictionary-based brute-force approach
+- Reads from a wordlist and hashes
+- Logs attempts and successful matches
+
+> ⚠️ **Note:** This is for **authorized ethical testing only**. Do not use without permission on any system or data you don't own or have consent for.
+
+To run:
 ```bash
-git clone https://github.com/gautamrawat543/CyberSecurity.git
-cd CyberSecurity
+cd BashScripts
+chmod +x password_crack.sh
+./password_crack.sh
