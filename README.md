@@ -22,7 +22,6 @@ This project includes **automated utilities**, **penetration testing scripts**, 
 |--------|-------------|
 | `BashScripts/` | All core bash scripts for various cybersecurity tasks |
 | `Achievements/` | Proof of cybersecurity contribution (with certificates/images) |
-| `vesitTest.txt` | Test/demo text file (usage TBD) |
 
 ---
 
